@@ -1,0 +1,17 @@
+@import "../../../src/scss/variables.scss";
+@import "../../../src/scss/breakpoints.scss";
+
+#catering {
+  background: $dark-grey;
+  padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+  h2 {
+    color: $white;
+  }
+  hr {
+    border-bottom: 1px solid $gold;
+    width: 80px;
+  }
+}

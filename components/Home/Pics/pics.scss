@@ -1,0 +1,18 @@
+@import "../../../src/scss/variables.scss";
+@import "../../../src/scss/breakpoints.scss";
+
+#pics {
+  background: $very-dark-grey;
+  padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+  .btm {
+    margin-top: 30px;
+  }
+  img {
+    margin-bottom: 30px;
+    width: 100%;
+    border: 2px solid $gold;
+  }
+}

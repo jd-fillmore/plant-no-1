@@ -1,0 +1,21 @@
+@import "../../../src/scss/variables.scss";
+@import "../../../src/scss/breakpoints.scss";
+
+#ourstory {
+  background: url("/public/img/ingredients.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 120px 0px 120px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+  h2 {
+    color: $white;
+    width: 75%;
+    margin: 0 auto;
+  }
+  hr {
+    border-bottom: 1px solid $gold;
+    width: 80px;
+    margin-bottom: 30px;
+  }
+}
