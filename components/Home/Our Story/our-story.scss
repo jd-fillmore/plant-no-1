@@ -2,7 +2,7 @@
 @import "../../../src/scss/breakpoints.scss";
 
 #ourstory {
-  background: url("/public/img/ingredients.jpg") center center no-repeat;
+  background: url("../../../src/img/ingredients.jpg") center center no-repeat;
   background-size: cover;
   padding: 120px 0px 120px 0px;
   @include bp-tablet-sm {

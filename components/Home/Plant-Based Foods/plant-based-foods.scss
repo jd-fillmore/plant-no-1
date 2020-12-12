@@ -2,7 +2,8 @@
 @import "../../../src/scss/breakpoints.scss";
 
 #plant {
-  background: url("/public/img/plant-based-foods.jpg") center center no-repeat;
+  background: url("../../../src/img/plant-based-foods.jpg") center center
+    no-repeat;
   background-size: cover;
   padding: 120px 0px 120px 0px;
   @include bp-tablet-sm {
