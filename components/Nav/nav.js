@@ -7,10 +7,11 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  NavLink,
+  // UncontrolledDropdown,
+  // DropdownToggle,
+  // DropdownMenu,
+  // DropdownItem,
 } from "reactstrap"
 import "../Nav/nav.scss"
 
@@ -30,37 +31,24 @@ const Example = props => {
         <NavbarToggler className="custom-toggler" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Link
-              </DropdownToggle>
-              <DropdownMenu right className="animate slideIn">
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-              </DropdownMenu>
-            </UncontrolledDropdown>
-            <UncontrolledDropdown nav inNavbar>
-              <DropdownToggle nav caret>
-                Link
-              </DropdownToggle>
-              <DropdownMenu right className="animate slideIn">
-                <Link to="#">
-                  <DropdownItem>Link</DropdownItem>
-                </Link>
-              </DropdownMenu>
-            </UncontrolledDropdown>
             <NavItem>
-              <Link to="#" className="nav-link">
-                Link
+              <Link to="/menu" className="nav-link">
+                Menu
               </Link>
             </NavItem>
             <NavItem>
-              <Link to="#" className="nav-link">
-                Link
+              <Link to="/about" className="nav-link">
+                About
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/gallery" className="nav-link">
+                Gallery
+              </Link>
+            </NavItem>
+            <NavItem>
+              <Link to="/contact" className="nav-link">
+                Contact
               </Link>
             </NavItem>
           </Nav>
