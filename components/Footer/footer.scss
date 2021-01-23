@@ -2,4 +2,18 @@
 @import "../../src/scss/breakpoints.scss";
 
 .footer {
+  padding: 80px 0px 80px 0px;
+  @include bp-tablet-sm {
+    padding: 60px 0px 60px 0px;
+  }
+  background: $footer-grey;
+  h6 {
+    color: $gold;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style: none;
+    margin-left: -40px;
+  }
 }

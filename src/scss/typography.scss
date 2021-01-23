@@ -24,7 +24,7 @@ h4,
 h5,
 h6 {
   font-family: $raleway;
-  font-weight: 100;
+  font-weight: 300;
   letter-spacing: 1px;
   line-height: 1.4;
   margin-bottom: 20px;
@@ -53,6 +53,7 @@ a {
   letter-spacing: 1px;
   &:focus,
   &:hover {
+    color: $gold;
   }
 }
 

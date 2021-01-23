@@ -16,10 +16,8 @@ function Intro({ imgAlt, title, description, btnText, btnLink }) {
               <h4>{title}</h4>
               <hr />
               <p>{description}</p>
-              <Link href={btnLink}>
-                <Button>
-                  <a>{btnText}</a>
-                </Button>
+              <Link to={btnLink}>
+                <Button>{btnText}</Button>
               </Link>
             </Col>
           </Row>

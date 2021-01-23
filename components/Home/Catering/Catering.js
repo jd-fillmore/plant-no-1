@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import { Container, Row, Col, Button } from "reactstrap"
 
 import "../Catering/catering.scss"
@@ -13,9 +14,9 @@ function Catering({ title, description, btnText, btnLink }) {
               <h2>{title}</h2>
               <hr />
               <p>{description}</p>
-              <a href={btnLink} target="_blank">
+              <Link to={btnLink}>
                 <Button>{btnText}</Button>
-              </a>
+              </Link>
             </Col>
           </Row>
         </Container>

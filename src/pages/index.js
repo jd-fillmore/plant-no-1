@@ -18,8 +18,14 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Website Title</title>
-        <meta name="description" content="Website description." />
+        <title>
+          Best Vegan Restaurant Niagara-on-the-Lake, St. Catharines | Plant No.
+          1
+        </title>
+        <meta
+          name="description"
+          content="A vegan food factory serving Niagara, St. Catharines and Niagara-on-the-Lake. Made locally, in house, on our beautiful blue planet, by hard working people."
+        />
       </Helmet>
       <Nav />
       <Hero
@@ -48,13 +54,13 @@ const Home = () => {
         selection of that too. Vegetables, grains, nuts and fruits -
         boring - not here, not ever."
         btnText="View Menu"
-        btnLink="#"
+        btnLink="/menu"
       />
       <Pics />
       <OurStory
         title="Thoughtfully chosen ingredients that come from the earth."
         btnText="Our Story"
-        btnLink="/menu"
+        btnLink="/about"
       />
       <Footer />
     </>

@@ -2,14 +2,27 @@
 @import "../../src/scss/variables.scss";
 
 .inner-content {
+  background: $dark-grey;
   padding: 120px 0px 120px 0px;
   @include bp-tablet-sm {
     padding: 60px 0px 60px 0px;
   }
-
   hr {
     width: 100px;
     margin-top: 0px;
     margin-bottom: 30px;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $white;
+  }
+  img {
+    border: 2px solid $gold;
+    margin-bottom: 20px;
+    width: 100%;
   }
 }

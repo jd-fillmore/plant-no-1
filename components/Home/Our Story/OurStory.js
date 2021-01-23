@@ -13,10 +13,8 @@ function OurStory({ title, btnText, btnLink }) {
             <Col lg="12" className="text-center">
               <h2>{title}</h2>
               <hr />
-              <Link href={btnLink}>
-                <Button>
-                  <a>{btnText}</a>
-                </Button>
+              <Link to={btnLink}>
+                <Button>{btnText}</Button>
               </Link>
             </Col>
           </Row>

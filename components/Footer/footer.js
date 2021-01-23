@@ -4,33 +4,22 @@ import { Link } from "gatsby"
 
 import "../Footer/footer.scss"
 
-const pages = [
+const links = [
   {
-    name: "link",
-    link: "/link",
+    name: "Menu",
+    link: "/menu",
   },
   {
-    name: "link",
-    link: "/link",
+    name: "About",
+    link: "/about",
   },
   {
-    name: "link",
-    link: "/link",
-  },
-]
-
-const services = [
-  {
-    name: "link",
-    link: "/link",
+    name: "Gallery",
+    link: "/gallery",
   },
   {
-    name: "link",
-    link: "/link",
-  },
-  {
-    name: "link",
-    link: "/link",
+    name: "Contact",
+    link: "/contact",
   },
 ]
 
@@ -41,39 +30,40 @@ const Footer = () => {
         <Container>
           <Row>
             <Col lg="3">
-              <h3>About</h3>
-              <p>description</p>
+              <h6>Hours</h6>
+              <ul>
+                <li>Monday - Friday: 9-5</li>
+                <li>Saturday - Sunday: 8-4</li>
+              </ul>
             </Col>
             <Col lg="3">
-              <h3>Pages</h3>
-              <ul>
-                {pages.map(page => (
+              <h6>Location</h6>
+              <p>Address goes here</p>
+            </Col>
+            <Col lg="6">
+              <ul className="d-flex justify-content-between">
+                {links.map(link => (
                   <li>
-                    <Link to={page.link}>{page.name}</Link>
+                    <Link to={link.link}>{link.name}</Link>
                   </li>
                 ))}
               </ul>
-            </Col>
-            <Col lg="3">
-              <h3>Services</h3>
-              <ul>
-                {services.map(service => (
-                  <li>
-                    <Link to={service.link}>{service.name}</Link>
-                  </li>
-                ))}
-              </ul>
-            </Col>
-            <Col lg="3">
-              <h3>Contact</h3>
-              <ul>
-                <li>
-                  <Link to="/get-started">Get Started</Link>
-                </li>
-              </ul>
-              <p>73 Alexandra Blvd, St. Catharines, ON L2P 1K2</p>
             </Col>
           </Row>
+          {/* <Row>
+            <Col lg="12">
+              <p>
+                <a
+                  href="https://infused.agency"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Niagara web design
+                </a>{" "}
+                by Infused Agency
+              </p>
+            </Col>
+          </Row> */}
         </Container>
       </section>
     </>

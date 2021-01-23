@@ -7,12 +7,12 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   // UncontrolledDropdown,
   // DropdownToggle,
   // DropdownMenu,
   // DropdownItem,
 } from "reactstrap"
+import logo from "../../src/img/vegan-restaurant-niagara-on-the-lake.png"
 import "../Nav/nav.scss"
 
 const Example = props => {
@@ -25,7 +25,7 @@ const Example = props => {
       <Navbar id="nav" expand="lg">
         <NavbarBrand href="/">
           <Link to="/" className="logo">
-            logo
+            <img src={logo} alt="vegan restaurant niagara on the lake" />
           </Link>
         </NavbarBrand>
         <NavbarToggler className="custom-toggler" onClick={toggle} />
