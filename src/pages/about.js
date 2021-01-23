@@ -5,6 +5,7 @@ import Nav from "../../components/Nav/nav"
 import InnerContent from "../../components/innerContent/innerContent"
 import Footer from "../../components/Footer/footer"
 import Hero from "../../components/Home/Hero/Hero"
+import aboutImg from "../img/about.jpg"
 import "../scss/about.scss"
 
 const About = () => {
@@ -38,14 +39,6 @@ const About = () => {
                   don’t want to shop, cook, or clean? Come on over and check us
                   out!
                 </p>
-              </Col>
-              <Col lg="6">
-                <img src="" alt="" />
-              </Col>
-            </Row>
-            {/* Two */}
-            <Row>
-              <Col lg="6">
                 <p>
                   All food is made in-house and available in our outlet store at
                   the front of our kitchen facility. We offer a wide array of
@@ -57,11 +50,12 @@ const About = () => {
                 </p>
               </Col>
               <Col lg="6">
-                <img src="" alt="" />
+                <img className="img-fluid" src={aboutImg} alt="about" />
               </Col>
             </Row>
             <Row>
               <Col lg="12">
+                <br />
                 <p>
                   Plant No. 1 is a pretty interesting place (literally built
                   from the ground up).. We try to run (mostly) on solar power,
