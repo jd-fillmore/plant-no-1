@@ -11,7 +11,7 @@ const Contact = () => {
     <>
       <Helmet>
         <title>Contact - Plant No. 1</title>
-        <meta name="description" content="description" />
+        <meta name="description" content="Contact us today with your order." />
       </Helmet>
       <Nav />
       <Hero title="Contact us today with your order." subtitle="Contact" />

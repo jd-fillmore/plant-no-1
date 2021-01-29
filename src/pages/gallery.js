@@ -144,7 +144,10 @@ const Gallery = () => {
     <>
       <Helmet>
         <title>Gallery - Plant No. 1</title>
-        <meta name="description" content="description" />
+        <meta
+          name="description"
+          content="Take a look at some of our delicious offerings."
+        />
       </Helmet>
       <Nav />
       <Hero

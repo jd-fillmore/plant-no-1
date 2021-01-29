@@ -13,7 +13,14 @@ const About = () => {
     <>
       <Helmet>
         <title>About - Plant No. 1</title>
-        <meta name="description" content="" />
+        <meta
+          name="description"
+          content="We offer a creative line-up of plant based comfort foods, and
+                  yes, because we love desserts, we have a pretty awesome
+                  selection of that too. We use the best ingredients we can
+                  find, void of anything artificial or hydrogenated or
+                  genetically modified."
+        />
       </Helmet>
       <Nav />
       <Hero
