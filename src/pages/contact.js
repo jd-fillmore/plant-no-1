@@ -70,7 +70,7 @@ const Contact = () => {
                     ></textarea>
                   </div>
                   <button className="btn btn-secondary" type="submit">
-                    Get My Quote
+                    Submit
                   </button>
                   <input type="hidden" name="bot-field" />
                   <input type="hidden" name="form-name" value="contact" />
