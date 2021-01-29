@@ -1,0 +1,36 @@
+// Image Gallery
+@import "../scss/breakpoints.scss";
+@import "../scss/variables.scss";
+
+.image-gallery {
+  button {
+    padding: inherit !important;
+    border-radius: 0px !important;
+    &:focus,
+    &:hover {
+      background: none;
+      transform: translateY(0%) !important;
+      top: 40%;
+    }
+  }
+  .image-gallery-thumbnails-container {
+    margin-top: 30px;
+    @include bp-tablet-sm {
+      margin-bottom: 0px;
+    }
+    .image-gallery-thumbnail-image {
+      padding: 0px 5px 0px 5px;
+    }
+  }
+  .image-gallery-play-button,
+  .image-gallery-fullscreen-button {
+    display: none;
+  }
+  .image-gallery-thumbnail.active,
+  .image-gallery-thumbnail:hover,
+  .image-gallery-thumbnail:focus {
+    border-radius: 0px !important;
+    border: 1px solid $gold !important;
+    box-shadow: none !important;
+  }
+}
