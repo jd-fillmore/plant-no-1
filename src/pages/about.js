@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Button } from "reactstrap"
+import { Container, Row, Col } from "reactstrap"
 import { Helmet } from "react-helmet"
 import Nav from "../../components/Nav/nav"
 import InnerContent from "../../components/innerContent/innerContent"

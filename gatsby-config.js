@@ -29,6 +29,15 @@ module.exports = {
       resolve: "gatsby-plugin-preact",
     },
     {
+      resolve: "gatsby-plugin-transition-link",
+    },
+    {
+      resolve: "gatsby-plugin-page-transitions",
+      options: {
+        transitionTime: 500,
+      },
+    },
+    {
       resolve: "gatsby-plugin-preload-fonts",
     },
     {
