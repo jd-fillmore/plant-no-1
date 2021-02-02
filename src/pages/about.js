@@ -34,11 +34,13 @@ const About = () => {
             <Row>
               <Col lg="6">
                 <p>
-                  We offer a creative line-up of plant based comfort foods, and
-                  yes, because we love desserts, we have a pretty awesome
-                  selection of that too. We use the best ingredients we can
-                  find, void of anything artificial or hydrogenated or
-                  genetically modified.
+                  The idea of Plant No. 01 came about out of a simple desire to
+                  offer a better alternative for lunch and dinner. Truthfully,
+                  how many people stop on their way to work (or wherever you are
+                  going) for a morning pick-me-up and later, grabbed something
+                  fast for lunch, that you wished you hadn’t eaten but were too
+                  hungry or too tired to really care. At Plant No. 01, we’re
+                  trying to change that.
                   <br />
                   <br />
                   Our goal is to provide plant based meals that appeal to both

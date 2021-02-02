@@ -29,8 +29,12 @@ const Home = () => {
       </Helmet>
       <Nav />
       <Hero
-        title="A vegan food factory serving Niagara, St. Catharines and
-                Niagara-on-the-Lake"
+        title={[
+          "A vegan food factory serving Niagara, St. Catharines and Niagara-on-the-Lake.",
+          <br />,
+          <br />,
+          "Vegetables, grains, nuts and fruits - boring - not here, not ever.",
+        ]}
         subtitle="Made locally, in house, on our beautiful blue planet, by hard
                 working people."
       />
@@ -44,10 +48,7 @@ const Home = () => {
       {/* <PlantBasedFoods title="All Plant-Based Foods" /> */}
       <Catering
         title="Interested in Catering?"
-        description="We offer a creative line-up of plant based comfort foods, and
-        yes, because we love desserts, we have a pretty awesome
-        selection of that too. Vegetables, grains, nuts and fruits -
-        boring - not here, not ever."
+        description="We can prepare something special for any occasion. Our “creative director and founder” specializes in using botanicals, reductions, and infusions inspired by an ever expanding array of edible flowers in our greenroom. Check out our DAILY GRUB and CELEBRATION menus (and we have been known to be up for a challenge if you’re craving something in particular)."
         btnText="View Menu"
         btnLink="/menu"
       />
