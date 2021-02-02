@@ -18,7 +18,7 @@ const About = () => {
           content="We offer a creative line-up of plant based comfort foods, and
                   yes, because we love desserts, we have a pretty awesome
                   selection of that too. We use the best ingredients we can
-                  find, void of anything artificial or hydrogenated or
+                  find, void of anything artificial, hydrogenated or
                   genetically modified."
         />
       </Helmet>
@@ -51,9 +51,7 @@ const About = () => {
                   the front of our kitchen facility. We offer a wide array of
                   our own frozen entrees and desserts as well as a limited (but
                   fabulous) selection of our frozen options , ready-to-eat , for
-                  lunch and dinner. We also offer catering for events up to
-                  fifty people and are more than happy to provide options for
-                  vegan guests at any B&B in NOTL.
+                  lunch and dinner.
                 </p>
               </Col>
               <Col lg="6">
@@ -63,6 +61,7 @@ const About = () => {
             <Row>
               <Col lg="12">
                 <br />
+                <h2>On a side note...</h2>
                 <p>
                   Plant No. 1 is a pretty interesting place (literally built
                   from the ground up).. We try to run (mostly) on solar power,

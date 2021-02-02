@@ -20,12 +20,12 @@ const Menu = () => {
         <title>Menu - Plant No. 1</title>
         <meta
           name="description"
-          content="We use the best ingredients we can find, void of anything artificial or hydrogenated or genetically modified."
+          content="We use the best ingredients we can find, void of anything artificial, hydrogenated or genetically modified."
         />
       </Helmet>
       <Nav />
       <Hero
-        title="We use the best ingredients we can find, void of anything artificial or hydrogenated or genetically modified."
+        title="We use the best ingredients we can find, void of anything artificial, hydrogenated or genetically modified."
         subtitle="Menu"
       />
       <InnerContent>

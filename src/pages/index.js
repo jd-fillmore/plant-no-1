@@ -34,19 +34,14 @@ const Home = () => {
         subtitle="Made locally, in house, on our beautiful blue planet, by hard
                 working people."
       />
-      <Intro
+      {/* <Intro
         imgAlt="Vegan restaraunt in Niagara-on-the-Lake, Niagara Falls and St. Catharines"
         title="Vegan Food Factory"
         description="100% plant based foods without the use of artificial colours, flavours, gmo's, or hydrogenated fats but we love organic and synthetic chemical free fruits and vegetables."
         btnText="View Menu"
         btnLink="/menu"
-      />
-      <PlantBasedFoods
-        title="All Plant-Based Foods"
-        description="Every effort made to eliminate artificial colours, flavours,
-                gmo's, as much local produce as possible without chemical
-                sprays."
-      />
+      /> */}
+      {/* <PlantBasedFoods title="All Plant-Based Foods" /> */}
       <Catering
         title="Interested in Catering?"
         description="We offer a creative line-up of plant based comfort foods, and
@@ -58,7 +53,7 @@ const Home = () => {
       />
       <Pics />
       <OurStory
-        title="Thoughtfully chosen ingredients that come from the earth."
+        title="Thoughtfully chosen ingredients."
         btnText="Our Story"
         btnLink="/about"
       />
